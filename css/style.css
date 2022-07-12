@@ -1,0 +1,42 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 85%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    object-fit:cover ;
+}
+
+header {
+    background-color: teal;
+    padding: 50px;
+}
+
+input{
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 325px;
+    font-size: large;
+    border: none;
+}
+
+
+#movie-box{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.movie__card{
+    width: 22%;
+}
